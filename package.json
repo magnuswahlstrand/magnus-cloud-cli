@@ -1,6 +1,6 @@
 {
-  "name": "typescript-cli-auth",
-  "version": "1.0.0",
+  "name": "magnus-cloud-cli",
+  "version": "1.0.1",
   "description": "prototype for authentication from the terminal",
   "main": "dist/index.js",
   "scripts": {
@@ -8,8 +8,13 @@
     "build": "tsc",
     "start": "npm run build && node dist/index.js"
   },
+  "bin": "dist/index.js",
   "author": "",
   "license": "ISC",
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
   "dependencies": {
     "@clack/prompts": "^0.7.0",
     "picocolors": "^1.0.0"

@@ -1,6 +1,6 @@
-// Run `npm start` to start the demo
+#!/usr/bin/env node
+
 import {cancel, confirm, intro, isCancel, outro, select, spinner, text,} from '@clack/prompts';
-// import {setTimeout as sleep} from 'node:timers/promises';
 import color from 'picocolors';
 
 const delay = async (msDelay: number) => {
@@ -72,8 +72,6 @@ async function main() {
     s.stop('Project complete');
 
     outro("You're all set!");
-
-    await delay(500);
 }
 
 main().catch(console.error);
