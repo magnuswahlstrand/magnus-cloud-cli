@@ -1,0 +1,15 @@
+# Node.js related
+node_modules/
+npm-debug.log
+
+# TypeScript / build output
+dist/
+
+# Editor / IDE specific
+.vscode/
+*.code-workspace
+*.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
